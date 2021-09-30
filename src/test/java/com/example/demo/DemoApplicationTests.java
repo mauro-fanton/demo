@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,8 @@ class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertTrue(false);
+		assertTrue(true);
+		assertFalse(true);
 	}
 
 }
